@@ -1,0 +1,4 @@
+{
+    "solidity.compileUsingRemoteVersion": "0.4.21",
+    "python.defaultInterpreterPath": "/home/dreth/anaconda3/envs/eth/bin/python"
+}
