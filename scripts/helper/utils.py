@@ -1,4 +1,5 @@
 from scripts.helper.challenges import *
+from brownie import accounts
 
 # test locally
 def deploy_locally(ContractObject, from_account, constructor_params=[]):
@@ -13,8 +14,14 @@ def deploy_locally(ContractObject, from_account, constructor_params=[]):
             # otherwise, it's fine passing as it is
             else:
                 params += f'{param},'
-    contract = eval(f'ContractObject.deploy({params} from_account)')
+        contract = eval(f'ContractObject.deploy({params} from_account)')
+    else:
+        contract = eval(f'ContractObject.deploy(from_account)')
     return contract
+
+# redefine _from and acc for local use
+def define_from_acc():
+    return {'from':accounts[0]}, accounts[0]
 
 # load challenge from instances
 def load_challenge(ContractObject, instance_key):
