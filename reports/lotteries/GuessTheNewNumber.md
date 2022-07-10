@@ -2,15 +2,15 @@
 
 ## Objectives
 
-The number is now generated on-demand when a guess is made.
+> The number is now generated on-demand when a guess is made.
 
 ## Solution
 
-We just need to code a contract that generates the number the exact same way prior to guessing it. For some reason that I don't quite understand though, the `guess()` call simply would not go through until I tried to do it through the constructor of the contract. 
+We just need to code a contract that generates the number the exact same way prior to guessing it. ~~For some reason that I don't quite understand though, the `guess()` call simply would not go through until I tried to do it through the constructor of the contract.~~ I simply didn't have a fallback function to receive the funds, so it worked in the constructor of the contract because before finalizing constructor execution, the funds would have already been sent to my address, but if a fallback function is added, then the funds can be properly received by the contract and the transactions won't fail.
 
 I coded the contract as follows:
 
-```cs
+```js
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.7.5 <0.8.0;
 

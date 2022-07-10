@@ -2,7 +2,7 @@
 
 ## Objectives
 
-This time the number is generated based on a couple fairly random sources.
+> This time the number is generated based on a couple fairly random sources.
 
 ## Solution
 
