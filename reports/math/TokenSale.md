@@ -76,6 +76,10 @@ In this case, I'd simply choose the lowest one for `f(x)` and make the function 
 
 3. Check if the challenge is complete by calling `isComplete()` or just clicking on _Check Solution_ on the Capture The Ether site.
 
+## Alternative (better) solution
+
+I asked a question on the Ethereum StackExchange regarding some of my lack of understanding of solidity mathematical operations and Usmann was kind enough to write a better solution than mine which allows you to solve this while being able to send 0 wei to the contract. His solution was layed out in his answer to my question [here](https://ethereum.stackexchange.com/a/131705/104415).
+
 ## Submission transaction
 
 https://ropsten.etherscan.io/tx/0x8b95f854e11e1b9a50f38f689d44bc018f65abc19753af497838b1ad5987b6ca
