@@ -288,7 +288,7 @@ $$d = inverse\_mod(r) * (s_1 * k - z_1) \mod n$$
 
 If you're using integers, convert this final result $d$ into hex.
 
-#### Python implementation of this
+#### Python implementation
 
 I have written a python implementation, modified from Eric Chen's answer on the Bitcoin StackExchange:
 
