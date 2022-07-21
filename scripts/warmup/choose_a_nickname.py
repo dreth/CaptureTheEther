@@ -1,6 +1,5 @@
 from scripts.helper.utils import *
 from scripts.helper.account import _from, acc
-from scripts.helper.web3 import web3
 from brownie import NicknameChallenge, CaptureTheEther
 
 ##########################################

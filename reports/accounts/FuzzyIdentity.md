@@ -23,7 +23,7 @@ function name() public view returns (bytes32) {
 
 2. We need that our contract address has the particular property that when it is operated with the `mask` as defined in `isBadCode` using a bitwise and (`&`) that its returning value is the value of `id`, which is any hex with `badc0de` in it, in any position. 
 
-This last particular qualiy is especially difficult to attain (at least compared to the first one). The reason for this is that we need to bruteforce the address of this to-be-deployed contract that we will use to interact with the FuzzyIdentityChallenge contract.
+This last particular quality is especially difficult to attain (at least compared to the first one). The reason for this is that we need to bruteforce the address of this to-be-deployed contract that we will use to interact with the FuzzyIdentityChallenge contract.
 
 Given that contract addresses are deterministic and computed using the deployer's address and the nonce in which the contract wil be deployed, we can generate lots of different contract addresses in three ways in order to bruteforce it:
 
@@ -41,6 +41,18 @@ It certainly does not particularly help that I chose python to do this, as pytho
 
 Once the account+nonce is found, all we have to do is run `authenticate()` from a contract deployed by this account at the nonce we found.
 
+### My bruteforce result
+
+The mnemonic I was able to find with my bruteforce is:
+
+```
+faint casino always journey city view glue drum elephant weather during maple
+```
+
+Which generates the address `0xB4Fb8ba4EEf20F2F64E0082a302FE3291C33F0ac` at offset 765.
+
+This address will deploy (now has already deployed) at nonce 0 the contract `0xe8e503a2294ac68e0f9f52e2badc0de90c6e2142` which contains the `badc0de` string.
+
 ## Submission transaction
 
-
+https://ropsten.etherscan.io/tx/0x01bbd72aa9f8332658164820b190430404eb1dc956dd53fb26b21d3a9b2fafdf

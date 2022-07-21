@@ -1,5 +1,6 @@
 from types import ClassMethodDescriptorType
 from scripts.helper.challenges import *
+from scripts.helper.web3 import web3
 from brownie import accounts
 from eth_utils import keccak, to_checksum_address, to_bytes
 from eth_account._utils.signing import extract_chain_id, to_standard_v
