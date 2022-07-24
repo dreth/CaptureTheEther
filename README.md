@@ -110,33 +110,33 @@ I have also added a small template for scripts, reports and attacker/interaction
 All my solutions are layed out in [this article](https://dac.ac/blog/capture_the_ether_solutions/) on my blog, however, you can also see the solutions here on github in the markdown documents under `/reports`. You can view whichever you want by clicking on its name:
 
 1. Warmup
-  + [Call me](https://github.com/dreth/CaptureTheEther/blob/main/reports/warmup/CallMe.md)
-  + [Choose a nickname](https://github.com/dreth/CaptureTheEther/blob/main/reports/warmup/ChooseANickname.md)
+   + [Call me](https://github.com/dreth/CaptureTheEther/blob/main/reports/warmup/CallMe.md)
+   + [Choose a nickname](https://github.com/dreth/CaptureTheEther/blob/main/reports/warmup/ChooseANickname.md)
   
 2. Lotteries
-  + [Guess the number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheNumber.md)
-  + [Guess the secret number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheSecretNumber.md)
-  + [Guess the random number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheRandomNumber.md)
-  + [Guess the new number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheNewNumber.md)
-  + [Predict the future](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/PredictTheFuture.md)
-  + [Predict the block hash](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/PredictTheBlockHash.md)
+   + [Guess the number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheNumber.md)
+   + [Guess the secret number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheSecretNumber.md)
+   + [Guess the random number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheRandomNumber.md)
+   + [Guess the new number](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/GuessTheNewNumber.md)
+   + [Predict the future](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/PredictTheFuture.md)
+   + [Predict the block hash](https://github.com/dreth/CaptureTheEther/blob/main/reports/lotteries/PredictTheBlockHash.md)
 
 3. Math
-  + [Token sale](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/TokenSale.md)
-  + [Token whale](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/TokenWhale.md)
-  + [Retirement fund](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/RetirementFund.md)
-  + [Mapping](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/Mapping.md)
-  + [Donation](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/Donation.md)
-  + [Fifty years](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/FiftyYears.md)
+   + [Token sale](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/TokenSale.md)
+   + [Token whale](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/TokenWhale.md)
+   + [Retirement fund](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/RetirementFund.md)
+   + [Mapping](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/Mapping.md)
+   + [Donation](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/Donation.md)
+   + [Fifty years](https://github.com/dreth/CaptureTheEther/blob/main/reports/math/FiftyYears.md)
 
 4. Accounts
-  + [Fuzzy identity](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/FuzzyIdentity.md)
-  + [Public key](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/PublicKey.md)
-  + [Account takeover](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/AccountTakeover.md)
+   + [Fuzzy identity](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/FuzzyIdentity.md)
+   + [Public key](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/PublicKey.md)
+   + [Account takeover](https://github.com/dreth/CaptureTheEther/blob/main/reports/accounts/AccountTakeover.md)
 
 5. Miscellaneous
-  + [Assume ownership](https://github.com/dreth/CaptureTheEther/blob/main/reports/miscellaneous/AssumeOwnership.md)
-  + [Token bank](https://github.com/dreth/CaptureTheEther/blob/main/reports/miscellaneous/TokenBank.md)
+   + [Assume ownership](https://github.com/dreth/CaptureTheEther/blob/main/reports/miscellaneous/AssumeOwnership.md)
+   + [Token bank](https://github.com/dreth/CaptureTheEther/blob/main/reports/miscellaneous/TokenBank.md)
 
 
 
