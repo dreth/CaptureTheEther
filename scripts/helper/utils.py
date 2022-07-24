@@ -1,4 +1,3 @@
-from types import ClassMethodDescriptorType
 from scripts.helper.challenges import *
 from scripts.helper.web3 import web3
 from brownie import accounts
