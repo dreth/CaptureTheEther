@@ -4,6 +4,12 @@ This repo contains my solutions and methodology to solve the [Capture the Ether 
 
 ## My local environment setup
 
+If you'll use my same setup, you can run `start_over.sh` to clean up my answers:
+
+```shell
+bash start_over.sh
+```
+
 1. Install relevant libraries
 
 ```
