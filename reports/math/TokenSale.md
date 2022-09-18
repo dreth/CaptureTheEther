@@ -10,7 +10,7 @@
 While _incredibly_ simple, this problem took me _days_ to solve, as I was not aware (or forgot) of a few things:
 
 * Floating point numbers do not exist in Solidity (as of writing this).
-* Operations in Solidity between whole numbers which would yield a floating point number are immediate rounded down at _every step_, so an arithmetic equation consisting of multiple operations would be applied a floor function at every step of the operation, e.g. $2 \div 3 * 7 \div 2 \rightarrow \lfloor\lfloor\lfloor 2 \div 23 \rfloor * 7 \rfloor \div 2 \rfloor$.
+* Operations in Solidity between whole numbers which would yield a floating point number are immediately rounded down at _every step_, so an arithmetic equation consisting of multiple operations would be applied a floor function at every step of the operation, e.g. $2 \div 3 * 7 \div 2 \rightarrow \lfloor\lfloor\lfloor 2 \div 23 \rfloor * 7 \rfloor \div 2 \rfloor$.
 * It is extremely difficult to get a perfect 0 after an integer overflow using products, therefore, in order to solve this problem, it's nearly impossible that the price for which I'll be able to buy the tokens (each worth 1 ether) will be _exactly_ zero wei.
 * I completely forgot that python will do things in the background with math, like for example: `1e18` is immediately considered a float, even though it's a whole number, therefore, to have `1e18` as an integer, I should be writing `int(1e18)`. 
 
